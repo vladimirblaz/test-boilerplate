@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     "./tailwind": "./tailwind.config.js"
-  }
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
