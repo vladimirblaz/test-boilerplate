@@ -35,7 +35,12 @@ export default defineNuxtConfig({
         prefix: "x",
         dir: join(currentPath, "./assets/icons")
       }
-    ]
+    ],
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: false,
+      sizeLimitKb: 5000
+    }
   },
   primevue: {
     options: {
