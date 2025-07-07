@@ -1,0 +1,3 @@
+<template>
+  <ScrollTop />
+</template>
