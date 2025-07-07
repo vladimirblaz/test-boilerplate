@@ -18,7 +18,6 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
 import { useField, type RuleExpression } from 'vee-validate';
-import AutoComplete from 'primevue/autocomplete';
 
 const props = defineProps<{
   name: string;
