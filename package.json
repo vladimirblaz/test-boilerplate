@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "exports": {
-    "./tailwind": "./tailwind.config.js"
+    "tailwind": "./tailwind.config.js"
   },
   "scripts": {
     "build": "nuxt build",
